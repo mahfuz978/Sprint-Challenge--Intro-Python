@@ -31,8 +31,7 @@ def cityreader(cities=[]):
     # TODO Implement the functionality to read from the 'cities.csv' file
     # For each city record, create a new City instance and add it to the
     # `cities` list
-    df = pd.read_csv(
-        r"C:\Users\mahfu\Documents\Lambda\CS31\Sprints\Sprint-Challenge--Intro-Python\src\cityreader\cities.csv")
+    df = pd.read_csv(".\cityreader\cities.csv")
 
     data = ["city", "lat", "lng"]
     rows = df[data]
